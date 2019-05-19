@@ -1,2 +1,2 @@
-# vamtigerr-twitter-icon-json-ld
+# vamtiger-twitter-icon-json-ld
 Twitter Icon JSON-LD
