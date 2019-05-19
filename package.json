@@ -1,6 +1,6 @@
 {
     "name": "vamtiger-twitter-icon-json-ld",
-    "version": "0.0.7-0",
+    "version": "0.0.7",
     "description": "Twitter Icon JSON-LD",
     "main": "build/vamtiger-twitter-icon-json-ld",
     "scripts": {
