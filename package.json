@@ -2,16 +2,16 @@
     "name": "vamtiger-twitter-icon-json-ld",
     "version": "0.0.4-0",
     "description": "Twitter Icon JSON-LD",
-    "main": "build/vamtigerr-twitter-icon-json-ld",
+    "main": "build/vamtiger-twitter-icon-json-ld",
     "scripts": {
         "test": "npm run clean && npm run build && npm run bundle-node-test && npm run bundle-browser-test && npm run mocha && npm run bundle-source",
         "mocha": "mocha build/test/node --recursive",
         "build": "tsc",
         "commit": "npm run bundle && vamtiger-node-typescript-commit --push --publish --buildScript bundle",
-        "clean-bundle": "vamtiger-remove -d build -p \"(vamtigerr-twitter-icon-json-ld).(js(.map)?|d.ts)\"",
+        "clean-bundle": "vamtiger-remove -d build -p \"(vamtiger-twitter-icon-json-ld).(js(.map)?|d.ts)\"",
         "clean": "rm -rf build/*",
         "clean-install": "rm -rf package-lock.json node_modules && npm i",
-        "bundle-source": "vamtiger-bundle-typescript --relativePath --entryFilePath source/vamtigerr-twitter-icon-json-ld.ts --bundleFilePath build/vamtigerr-twitter-icon-json-ld.js --format iife --sourcemap true --copySourceMap --minify",
+        "bundle-source": "vamtiger-bundle-typescript --relativePath --entryFilePath source/vamtiger-twitter-icon-json-ld.ts --bundleFilePath build/vamtiger-twitter-icon-json-ld.js --format iife --sourcemap true --copySourceMap --minify",
         "bundle-node-test": "vamtiger-bundle-typescript --relativePath --entryFilePath source/test/node.ts --bundleFilePath build/test/node.js --format cjs --sourcemap true --copySourceMap --minify",
         "bundle-browser-test": "vamtiger-bundle-typescript --relativePath --entryFilePath source/test/browser.ts --bundleFilePath build/test/browser.js --format iife --sourcemap true --copySourceMap --minify",
         "bundle": "npm test && npm run bundle-source && npm run clean-bundle",
@@ -30,7 +30,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vamtiger-project/vamtigerr-twitter-icon-json-ld.git"
+        "url": "git+https://github.com/vamtiger-project/vamtiger-twitter-icon-json-ld.git"
     },
     "keywords": [
         "vamtiger",
@@ -42,9 +42,9 @@
     "author": "Vamtiger Immortalles",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/vamtiger-project/vamtigerr-twitter-icon-json-ld/issues"
+        "url": "https://github.com/vamtiger-project/vamtiger-twitter-icon-json-ld/issues"
     },
-    "homepage": "https://github.com/vamtiger-project/vamtigerr-twitter-icon-json-ld#readme",
+    "homepage": "https://github.com/vamtiger-project/vamtiger-twitter-icon-json-ld#readme",
     "types": "build/index.d.ts",
     "devDependencies": {
         "@types/chai": "^4.1.7",
